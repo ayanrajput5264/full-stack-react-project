@@ -11,19 +11,21 @@ import "../App.css"
 function Navbar1() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid className='space'>
+      <Container fluid className="space">
         <Navbar.Brand href="#"><img src={image} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="m-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="#action1" id='Home'>Home</Nav.Link>
             <Nav.Link href="#action2">Pages</Nav.Link>
+            <Nav.Link href="#action2">contact</Nav.Link>
+
            
-            <Nav.Link href="#" disable>
+            <Nav.Link href="#">
               Link
             </Nav.Link>
           </Nav>
