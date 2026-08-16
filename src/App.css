@@ -16,3 +16,9 @@
 #Home{
   color: #FB2E86;
 }
+
+.product{
+  display: flex;
+  flex-direction: row;
+  gap:  5px;
+}

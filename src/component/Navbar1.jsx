@@ -6,10 +6,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import image from '../assets/logo.png'
 import { Routes,Route,Link,NavLink } from 'react-router-dom';
+import Home from '../pages/Home';
+import Product from '../pages/Product';
 import "../App.css"
 
 function Navbar1() {
+  
   return (
+    
+    <>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid className="space">
         <Navbar.Brand href="#"><img src={image} alt="" /></Navbar.Brand>
@@ -20,9 +25,9 @@ function Navbar1() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" id='Home'>Home</Nav.Link>
-            <Nav.Link href="#action2">Pages</Nav.Link>
-            <Nav.Link href="#action2">contact</Nav.Link>
+            <Nav.Link href="/" id='Home'>Home</Nav.Link>
+            <Nav.Link href="/Product">Product</Nav.Link>
+            <Nav.Link href="/contact">contact</Nav.Link>
 
            
             <Nav.Link href="#">
@@ -41,6 +46,14 @@ function Navbar1() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Routes >
+                <Route path='/' element={<Home />} />
+                <Route path='/product' element={<Product />} />
+                {/* <Route path='/contact' element={<Contact />} /> */}
+
+            </Routes>
+</>
+
 
   );
 }
