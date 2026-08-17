@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getAllCategories } from "../api/Product.js";
+import { getAllCategories } from "../Api/Product.js";
 import "../App.css"
 
 function Categories() {
