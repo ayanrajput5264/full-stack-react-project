@@ -22,3 +22,10 @@
   flex-direction: row;
   gap:  5px;
 }
+.button{
+  color: white;
+  background-color: #FB2E86;
+}
+.main{
+  color: rgb(63, 200, 205);
+}
