@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getAllCategories } from "../api/Product";
+import { getAllCategories } from "../api/Product.js";
 import "../App.css"
 
 function Categories() {
@@ -13,7 +13,7 @@ function Categories() {
         const data = await getAllCategories();
         setCategories(data);
       } catch (err) {
-        setError("Categories load nahi ho payi");
+        setError("erorr");
       } finally {
         setLoading(false);
       }
