@@ -27,5 +27,23 @@
   background-color: #FB2E86;
 }
 .main{
-  color: rgb(63, 200, 205);
+  background-color: rgb(63, 200, 205);
+  height: auto;
+  width: auto;
+}
+.img{
+  height: 300px;
+  width: 300px;
+}
+.imgDiv{
+  height: 300px;
+  width: 300px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:  20px;
+}
+.h1{
+  color: #FB2E86;
 }
