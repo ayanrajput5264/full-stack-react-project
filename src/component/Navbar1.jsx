@@ -8,6 +8,7 @@ import image from '../assets/logo.png'
 import { Routes,Route,Link,NavLink } from 'react-router-dom';
 import Home from '../pages/Home';
 import Product from '../pages/Product';
+import Contact from '../pages/Contact';
 import "../App.css"
 
 function Navbar1() {
@@ -30,9 +31,7 @@ function Navbar1() {
             <Nav.Link href="/contact">contact</Nav.Link>
 
            
-            <Nav.Link href="#">
-              Link
-            </Nav.Link>
+          
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -49,7 +48,7 @@ function Navbar1() {
     <Routes >
                 <Route path='/' element={<Home />} />
                 <Route path='/product' element={<Product />} />
-                {/* <Route path='/contact' element={<Contact />} /> */}
+                <Route path='/Contact' element={<Contact />} />
 
             </Routes>
 </>

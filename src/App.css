@@ -47,3 +47,217 @@
 .h1{
   color: #FB2E86;
 }
+/* fetured css */
+/* FeaturedProducts.css */
+
+.featured-heading {
+  color: #1c1c1c;
+  font-weight: 700;
+}
+
+.product-card {
+  border: none;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.product-card.featured {
+  background-color: #2b0e6e;
+  color: #ffffff;
+}
+
+.product-img-box {
+  height: 160px;
+  background-color: #f5f6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card.featured .product-img-box {
+  background-color: transparent;
+}
+
+.product-img-box img {
+  max-height: 140px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.product-img-placeholder {
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.view-details-btn {
+  background-color: #2ecc71;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 4px 20px;
+  font-size: 13px;
+  border: none;
+}
+
+.product-title {
+  color: #ec1e79;
+  font-weight: 600;
+}
+
+.product-card.featured .product-title {
+  color: #ffffff;
+}
+
+.product-code {
+  font-size: 13px;
+  color: #888888;
+}
+
+.product-card.featured .product-code {
+  color: #dddddd;
+}
+
+.product-price {
+  font-size: 15px;
+  color: #222222;
+  font-weight: bold;
+}
+
+.product-card.featured .product-price {
+  color: #ffffff;
+}
+
+.dash-line {
+  width: 12px;
+  height: 2px;
+  display: inline-block;
+}
+
+.dash-pink {
+  background-color: #ec1e79;
+}
+
+.dash-green {
+  background-color: #2ecc71;
+}
+
+.dash-blue {
+  background-color: #12b8e8;
+}
+
+.pagination-dash {
+  width: 14px;
+  height: 3px;
+  display: inline-block;
+}
+
+.pagination-dash.active {
+  background-color: #ec1e79;
+}
+
+.pagination-dash.inactive {
+  background-color: #f5b8d0;
+}
+/* contact css */
+/* ContactUs.css */
+
+/* Top banner section */
+.contact-banner {
+  background-color: #f2effa;
+  padding: 60px 0 40px 0;
+}
+
+.contact-banner-title {
+  color: #1c1c4e;
+  font-weight: 700;
+}
+
+.contact-breadcrumb {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-breadcrumb .active-crumb {
+  color: #ec1e79;
+}
+
+/* Info section headings */
+.info-heading {
+  color: #1c1c4e;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.info-paragraph {
+  color: #8a8a8a;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Small colored dots under "Information About Us" */
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-purple {
+  background-color: #5b3df5;
+}
+
+.dot-pink {
+  background-color: #ec1e79;
+}
+
+.dot-cyan {
+  background-color: #12d6c5;
+}
+
+/* Contact Way section */
+.contact-way-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.icon-purple {
+  background-color: #5b3df5;
+}
+
+.icon-pink {
+  background-color: #ec1e79;
+}
+
+.icon-orange {
+  background-color: #f5a623;
+}
+
+.icon-green {
+  background-color: #2ecc71;
+}
+
+.contact-way-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1c1c1c;
+  margin-bottom: 2px;
+}
+
+.contact-way-subtitle {
+  font-size: 13px;
+  color: #8a8a8a;
+}
