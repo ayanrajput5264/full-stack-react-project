@@ -1,5 +1,6 @@
 import React from 'react'
 import "../App.css"
+import Form from "./Form"
 
 const contact = () => {
   return (
@@ -73,8 +74,9 @@ const contact = () => {
       </div>
     </div>
   </section>
+ <Form/>
 </div>
-     
+    
   )
 }
 

@@ -261,3 +261,8 @@
   font-size: 13px;
   color: #8a8a8a;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
