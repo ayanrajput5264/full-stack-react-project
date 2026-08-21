@@ -26,7 +26,7 @@ function Categories() {
   if (error) return <p>{error}</p>;
 
   return (
-    <div className=" product d-flex justify-content-center gap-4 p-4 col-4">
+    <div className=" product d-flex justify-content-center">
       <h1 >Categories</h1>
       <div>
         {categories.map((category) => (
